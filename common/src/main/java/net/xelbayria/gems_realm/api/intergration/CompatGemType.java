@@ -10,7 +10,7 @@ import static net.xelbayria.gems_realm.api.set.gem.VanillaGemChildKeys.GEM;
  * And a few examples
  **/
 @ApiStatus.Internal
-public class CompatGemType extends CompatBlockType{
+public class CompatGemType extends CompatBlockType {
 
     /* Defintion of REASONS:
      *
@@ -29,7 +29,8 @@ public class CompatGemType extends CompatBlockType{
      * 2-Words: The name of GemType is 2-Words instead of 1-Word
      *
      */
-    public static void init() {}
+    public static void init() {
+    }
 
     static {
 
@@ -148,6 +149,99 @@ public class CompatGemType extends CompatBlockType{
         gemReg.addSimpleFinder("crystalcraft_unlimited_java", "star_ruby"); //REASON: 2-Words
         gemReg.addSimpleFinder("crystalcraft_unlimited_java", "titanium_quartz"); //REASON: 2-Words
         gemReg.addSimpleFinder("crystalcraft_unlimited_java", "umbranova"); //REASON: ???
-    }
 
+        // -------------------- PFW Aesthestic Gems - REASON: Naming-Convention
+
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "red_fluorite") //REASON: Id-Block, 2-Words
+                .gemBlock("red_fluorite_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "pink_topaz") //REASON: Id-Block, 2-Words
+                .gemBlock("pink_topaz_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "red_ruby") //REASON: Id-Block, 2-Words
+                .gemBlock("red_ruby_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "bloodstone") //REASON: Id-Block, 2-Words
+                .gemBlock("bloodstone_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "red_jasper") //REASON: Id-Block, 2-Words
+                .gemBlock("red_jasper_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "sunstone") //REASON: Id-Block, 2-Words
+                .gemBlock("sunstone_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+        gemReg.addSimpleFinder("pfw_aesthetic_gems", "padparadsha_sapphire") //REASON: Id-Block, 2-Words
+                .gemBlock("padparadsha_sapphire_block");
+
+    }
 }
