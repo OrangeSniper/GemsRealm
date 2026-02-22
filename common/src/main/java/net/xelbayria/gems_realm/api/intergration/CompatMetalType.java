@@ -189,6 +189,12 @@ public class CompatMetalType extends CompatBlockType {
         metalReg.addSimpleFinder(crystalcraft, "molybdenum"); //REASON: ???
         metalReg.addSimpleFinder(crystalcraft, "europium"); //REASON: ???
         metalReg.addSimpleFinder(crystalcraft, "calcium"); //REASON: ???
+
+        // CrystalCraft-Unlimited-Java
+        String alexCave = "alexscaves";
+
+        metalReg.addSimpleFinder(alexCave, "scarlet_neodymium"); //REASON: 2-Words
+        metalReg.addSimpleFinder(alexCave, "azure_neodymium"); //REASON: 2-Words
     }
 
 }
